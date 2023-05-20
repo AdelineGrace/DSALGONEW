@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="27" passed="22" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-19T16:26:39 EDT" name="Default suite" finished-at="2023-05-19T16:28:19 EDT" duration-ms="100486">
+  <suite started-at="2023-05-20T10:07:43 EDT" name="Default suite" finished-at="2023-05-20T10:09:13 EDT" duration-ms="90263">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-05-19T16:26:39 EDT" name="Default test" finished-at="2023-05-19T16:28:19 EDT" duration-ms="100486">
+    <test started-at="2023-05-20T10:07:43 EDT" name="Default test" finished-at="2023-05-20T10:09:13 EDT" duration-ms="90263">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:26:39 EDT" name="setUpClass" finished-at="2023-05-19T16:26:42 EDT" duration-ms="3450" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:07:43 EDT" name="setUpClass" finished-at="2023-05-20T10:07:45 EDT" duration-ms="2794" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5a8d03ce]]>
+                <![CDATA[org.testng.TestRunner@5e9a9683]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:26:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:26:48 EDT" duration-ms="5925" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:07:45 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:07:51 EDT" duration-ms="5219" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@ at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:26:48 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:26:50 EDT" duration-ms="1429" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:07:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:07:52 EDT" duration-ms="1373" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@ at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:26:50 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:26:50 EDT" duration-ms="403" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:07:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:07:52 EDT" duration-ms="284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@ at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:26:50 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:26:53 EDT" duration-ms="3001" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:07:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:07:55 EDT" duration-ms="2929" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,7 +102,7 @@ at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:26:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:26:54 EDT" duration-ms="1047" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:07:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:07:56 EDT" duration-ms="1099" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:26:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:26:58 EDT" duration-ms="3681" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:07:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:00 EDT" duration-ms="3536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:26:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:04 EDT" duration-ms="6440" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:06 EDT" duration-ms="6217" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:08 EDT" duration-ms="3534" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:10 EDT" duration-ms="3403" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,7 +183,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:13 EDT" duration-ms="4742" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:14 EDT" duration-ms="4529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:15 EDT" duration-ms="2457" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:16 EDT" duration-ms="2417" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,7 +215,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:23 EDT" duration-ms="8343" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:24 EDT" duration-ms="7575" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,7 +231,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:26 EDT" duration-ms="2965" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:28 EDT" duration-ms="4299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,7 +247,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:26 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:28 EDT" duration-ms="1612" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:28 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:30 EDT" duration-ms="1524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:28 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:30 EDT" duration-ms="2503" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:32 EDT" duration-ms="2491" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,7 +279,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:33 EDT" duration-ms="2528" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:35 EDT" duration-ms="2484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -295,7 +295,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:34 EDT" duration-ms="556" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:35 EDT" duration-ms="510" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -311,7 +311,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:37 EDT" duration-ms="3467" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:39 EDT" duration-ms="3491" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -327,7 +327,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:40 EDT" duration-ms="2565" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:41 EDT" duration-ms="2490" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -343,7 +343,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:42 EDT" duration-ms="1905" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:43 EDT" duration-ms="1860" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -359,7 +359,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:46 EDT" duration-ms="4029" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:47 EDT" duration-ms="4026" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -392,7 +392,7 @@ at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspac
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:51 EDT" duration-ms="5189" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:52 EDT" duration-ms="5072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -408,7 +408,7 @@ at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspac
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:51 EDT" duration-ms="362" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:53 EDT" duration-ms="259" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -424,7 +424,7 @@ at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspac
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:27:56 EDT" duration-ms="4384" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:08:57 EDT" duration-ms="4407" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -457,7 +457,7 @@ at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/D
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:27:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:28:00 EDT" duration-ms="4170" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:08:57 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:09:01 EDT" duration-ms="4034" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -473,7 +473,7 @@ at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/D
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:28:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:28:00 EDT" duration-ms="354" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:09:01 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:09:01 EDT" duration-ms="244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -489,7 +489,7 @@ at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/D
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:28:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:28:11 EDT" duration-ms="11324" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:09:01 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:09:06 EDT" duration-ms="4738" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -502,52 +502,27 @@ at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/D
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Try here>>>']"}
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3348bfbba72f3fcedee1a1b9fc0a50f, findElement {using=xpath, value=//a[text()='Try here>>>']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f]]>
+              <![CDATA[expected [Welcome to Queue] but found []]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Try here>>>']"}
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3348bfbba72f3fcedee1a1b9fc0a50f, findElement {using=xpath, value=//a[text()='Try here>>>']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at POM_DsAlgo.POMQueue.Try_Here(POMQueue.java:68)
-at Steps_DsAlgo.QueueSteps.user_scroll_down_to_select_option_from_Queue_list(QueueSteps.java:94)
-at ✽.user scroll down to select option from Queue list(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:15)
+              <![CDATA[java.lang.AssertionError: expected [Welcome to Queue] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:134)
+at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:28:11 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-19T16:28:16 EDT" duration-ms="4157" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:09:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T10:09:10 EDT" duration-ms="4083" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -563,7 +538,7 @@ at ✽.user scroll down to select option from Queue list(file:///C:/Users/shaun/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-19T16:28:16 EDT" name="tearDownClass" finished-at="2023-05-19T16:28:19 EDT" duration-ms="3705" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-20T10:09:10 EDT" name="tearDownClass" finished-at="2023-05-20T10:09:13 EDT" duration-ms="2684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -87,9 +87,8 @@ public void user_scroll_down_to_select_option_from_Queue_list() throws Interrupt
 Actions action = new Actions(DriverFactory.getDriver());
 
 action.sendKeys(Keys.PAGE_DOWN).build().perform();
-
+Thread.sleep(500);
 queue.Qimplementation();
-Thread.sleep(1000);
 
 queue.Try_Here();
 
@@ -104,7 +103,7 @@ public void user_enters_the_invalid_python_code_in_the_editor_box(String sheetNa
 
 ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel.xlsx");
 
-Thread.sleep(2000);
+Thread.sleep(1000);
 
 List<String> content=reader.getCellData(sheetName,0,rowNumber);
 Thread.sleep(1000);

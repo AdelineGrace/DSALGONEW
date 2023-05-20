@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>22/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 19 16:26:39 EDT 2023</td>
+<td>Started on:</td><td>Sat May 20 10:07:43 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>100 seconds (100486 ms)</td>
+<tr><td>Total time:</td><td>90 seconds (90263 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -86,8 +86,8 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:665)
 	at Steps_DsAlgo.LoginSteps.user_stays_on_the_login_page(LoginSteps.java:182)
 	at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:47)
-</pre></div><a href='#' onClick='toggleBox("stack-trace966541452", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace966541452'><pre>java.lang.AssertionError: expected [U are logged in] but found [Invalid Username and Password]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1274089441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1274089441'><pre>java.lang.AssertionError: expected [U are logged in] but found [Invalid Username and Password]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -100,26 +100,50 @@ function toggleAllBoxes() {
 <td>1</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with invalid syntax in Overview of Trees Option", "Run the tryEditor in Overview of Trees Tree Module"</td>
-<td><div><pre>java.lang.AssertionError: expected [] but found [Overview of Trees]
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
+<td><div><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.TreeSteps.user_checks_for_the_error_message(TreeSteps.java:84)
-	at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/FTree.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1617280183", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1617280183'><pre>java.lang.AssertionError: expected [] but found [Overview of Trees]
+	at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
+	at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1009638012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1009638012'><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.TreeSteps.user_checks_for_the_error_message(TreeSteps.java:84)
-	at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/FTree.feature:13)
+	at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
+	at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
+</pre></div></td>
+<td>5</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with invalid syntax in editor box", "User should be able to run Queue Module features"</td>
+<td><div><pre>java.lang.AssertionError: expected [Welcome to Queue] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:134)
+	at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace751413576", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace751413576'><pre>java.lang.AssertionError: expected [Welcome to Queue] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:134)
+	at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
 </pre></div></td>
 <td>4</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
@@ -134,8 +158,8 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:665)
 	at Steps_DsAlgo.GraphSteps.user_should_have_error_message(GraphSteps.java:133)
 	at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Graph.feature:25)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1238173945", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1238173945'><pre>java.lang.AssertionError: expected [Welcome to Graph] but found []
+</pre></div><a href='#' onClick='toggleBox("stack-trace1739628084", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1739628084'><pre>java.lang.AssertionError: expected [Welcome to Graph] but found []
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -148,86 +172,28 @@ function toggleAllBoxes() {
 <td>4</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with invalid syntax in editor box", "User should be able to run Queue Module features"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]&quot;}
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3348bfbba72f3fcedee1a1b9fc0a50f, findElement {using=xpath, value=//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at POM_DsAlgo.POMQueue.Try_Here(POMQueue.java:68)
-	at Steps_DsAlgo.QueueSteps.user_scroll_down_to_select_option_from_Queue_list(QueueSteps.java:94)
-	at ✽.user scroll down to select option from Queue list(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:15)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2116946826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2116946826'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]&quot;}
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3348bfbba72f3fcedee1a1b9fc0a50f, findElement {using=xpath, value=//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at POM_DsAlgo.POMQueue.Try_Here(POMQueue.java:68)
-	at Steps_DsAlgo.QueueSteps.user_scroll_down_to_select_option_from_Queue_list(QueueSteps.java:94)
-	at ✽.user scroll down to select option from Queue list(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:15)
-</pre></div></td>
-<td>11</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
-<td><div><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with invalid syntax in Overview of Trees Option", "Run the tryEditor in Overview of Trees Tree Module"</td>
+<td><div><pre>java.lang.AssertionError: expected [] but found [Overview of Trees]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
-	at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1803977322", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1803977322'><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]
+	at Steps_DsAlgo.TreeSteps.user_checks_for_the_error_message(TreeSteps.java:84)
+	at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/FTree.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1208587475", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1208587475'><pre>java.lang.AssertionError: expected [] but found [Overview of Trees]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
-	at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
+	at Steps_DsAlgo.TreeSteps.user_checks_for_the_error_message(TreeSteps.java:84)
+	at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/FTree.feature:13)
 </pre></div></td>
-<td>5</td>
+<td>4</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -239,34 +205,19 @@ Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters valid data", "User is learning Stack Data Structure"</td>
 <td></td>
 <td>3</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Data Structure"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Choosing of Tree Module from the List page", "Run the tryEditor in Overview of Trees Tree Module"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is learning LinkedList by navigating through all below links", "LinkedList acessed by user"</td>
 <td></td>
 <td>1</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Graph Module with valid syntax in editor box", "User should be able to run Graph Module features"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the correct script", "The module Arrays"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Overview of Trees Option", "Run the tryEditor in Overview of Trees Tree Module"</td>
-<td></td>
-<td>5</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Selecting the Graph Module from the dropdown list", "User should be able to run Graph Module features"</td>
@@ -274,47 +225,7 @@ Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f
 <td>0</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid code in linked list.", "LinkedList acessed by user"</td>
-<td></td>
-<td>2</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters invalid data", "User is learning Stack Data Structure"</td>
-<td></td>
-<td>2</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login page with valid credentials", "Register new Account"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Find Even Numbers Question", "The module Arrays"</td>
-<td></td>
-<td>8</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Login process for User with incorrect credentials", "Register new Account"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User wants to learn and explore Stack", "User is learning Stack Data Structure"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with valid syntax in editor box", "User should be able to run Queue Module features"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is trying register with correct credentials", "Register new Account"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Selecting the Queue Module from the dropdown list", "User should be able to run Queue Module features"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
@@ -324,14 +235,14 @@ Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f
 <td>6</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Squares of a Sorted Array Question", "The module Arrays"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Arrays"</td>
 <td></td>
 <td>2</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Selecting the Queue Module from the dropdown list", "User should be able to run Queue Module features"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Squares of a Sorted Array Question", "The module Arrays"</td>
 <td></td>
-<td>0</td>
+<td>4</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid code in linked list.", "LinkedList acessed by user"</td>
@@ -339,14 +250,69 @@ Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f
 <td>2</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Arrays"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Graph Module with valid syntax in editor box", "User should be able to run Graph Module features"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is trying register with correct credentials", "Register new Account"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid code in linked list.", "LinkedList acessed by user"</td>
 <td></td>
 <td>2</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is learning LinkedList by navigating through all below links", "LinkedList acessed by user"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Data Structure"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Find Even Numbers Question", "The module Arrays"</td>
+<td></td>
+<td>7</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Choosing of Tree Module from the List page", "Run the tryEditor in Overview of Trees Tree Module"</td>
 <td></td>
 <td>1</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login page with valid credentials", "Register new Account"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Overview of Trees Option", "Run the tryEditor in Overview of Trees Tree Module"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User wants to learn and explore Stack", "User is learning Stack Data Structure"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Login process for User with incorrect credentials", "Register new Account"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the correct script", "The module Arrays"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters invalid data", "User is learning Stack Data Structure"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with valid syntax in editor box", "User should be able to run Queue Module features"</td>
+<td></td>
+<td>4</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 </table><p>
 </body>

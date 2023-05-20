@@ -139,18 +139,19 @@ public class ArraysSD {
 
 	 @When("user trys to enter the valid python code in the tryEditor Box using {string} and {int} from excel sheet")
 	 public void user_trys_to_enter_the_valid_python_code_in_the_try_editor_box_using_excel_and(String SheetName, Integer RowNumber) throws InterruptedException {
-		 ExcelReader reader1 = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject\\src\\test\\resources\\excel.xlsx");
+		 ExcelReader reader1 = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel.xlsx");
 			List<String> content =reader1.getCellData(SheetName,0,RowNumber);
 			Arraypage.Editor(content);
 			 Thread.sleep(1000);
 			 Arraypage.clickRun();
-			 
+			 Thread.sleep(1000);
+			 Arraypage.acceptAlert();
 	 }
 
 	 @Then("user validates the input message printed in console")
 	 public void user_validates_the_input_message_printed_in_console() throws IOException {
 		
-		 Loggerload.info("Valid Python code");
+		 Loggerload.info("InValid Python code");
 	 }
 }
 

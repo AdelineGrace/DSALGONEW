@@ -26,15 +26,6 @@ public class dataStructureSD {
 	@When("User Clicks on the DataStructure")
 	public void user_clicks_on_the_data_structure() {
 		DSpage.getDataStru();	
-//		ExcelReader1 excelReader = 
-//				new ExcelReader1("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel\\LoginDetails.xlsx", "Sheet1");
-//
-//    String Username= excelReader.getCellValueU1(2,0);
-//	String Password= excelReader.getCellValueP1(2,1);
-//	  DSpage.clickUsername(Username);
-//	  DSpage.clickPassword(Password);
-//	  DSpage.clickLogin();
-	 	
 	}
 
 	@And("User clicks on Time Complexity and try here")

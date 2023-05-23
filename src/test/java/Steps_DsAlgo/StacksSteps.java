@@ -1,6 +1,8 @@
 package Steps_DsAlgo;
 
 
+import java.io.IOException;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 
@@ -47,7 +49,7 @@ public class StacksSteps {
    }
 
     @When("User scrolls down on Try Here and writes valid code in python")
-    public void user_scrolls_down_on_try_here_and_writes_valid_code_in_python() throws InterruptedException {
+    public void user_scrolls_down_on_try_here_and_writes_valid_code_in_python() throws InterruptedException, IOException {
    stack.clickTryHere();
    Thread.sleep(1000);
    stack.typeCorrectCode();
@@ -73,7 +75,7 @@ public class StacksSteps {
    }
 
    @When("User clicks on Try Here and writes in-valid code")
-   public void user_clicks_on_try_here_and_writes_in_valid_code() throws InterruptedException {
+   public void user_clicks_on_try_here_and_writes_in_valid_code() throws InterruptedException, IOException {
 
    stack.typeIncorrectCode();
    Thread.sleep(1000);

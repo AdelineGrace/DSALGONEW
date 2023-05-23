@@ -1,7 +1,10 @@
 package POM_DsAlgo;
 
 
-	import java.util.List;
+	import java.io.IOException;
+import java.util.List;
+import static Utilities.ConfigReader.getll;
+import static Utilities.ConfigReader.getllinv;
 
 
 	import org.openqa.selenium.By;
@@ -78,9 +81,9 @@ import Driver.DriverFactory;
 
 	}
 
-	public void typeCorrectCode() {
+	public void typeCorrectCode() throws IOException {
 
-	driver.findElement(textbox).sendKeys("print'This is linked list'");
+	driver.findElement(textbox).sendKeys(getll());
 
 	}
 	 public void clearCode() {
@@ -88,9 +91,9 @@ import Driver.DriverFactory;
 			actions.sendKeys(Keys.DELETE).perform();
 	  }
 
-	public void typeIncorrectCode() {
+	public void typeIncorrectCode() throws IOException {
 
-	driver.findElement(textbox).sendKeys("Linked list");
+	driver.findElement(textbox).sendKeys(getllinv());
 
 	}
 	

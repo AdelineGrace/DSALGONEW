@@ -27,14 +27,6 @@ public class ExcelReader1 {
 			e.printStackTrace();
 		}
 	}
-//	public static void main(String[] args) {
-//		
-//		getCellValueU1(1,0);
-//		getCellValueU2(2,0);
-//        getCellValueP1(1,1);
-//        getCellValueP2(2,1);
-//	}
-
 	
 	public  String  getCellValueU1 (int rownum, int colnum) {
 		try {

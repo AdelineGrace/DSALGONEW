@@ -33,6 +33,30 @@ import org.apache.commons.lang3.RandomStringUtils;
 		
 			
 	}*/
+	public static String getll() throws IOException
+	{
+		return init_prop().getProperty("linkedlist");
+	}
+	public static String getllinv() throws IOException
+	{
+		return init_prop().getProperty("list");
+	}
+	public static String getArrays() throws IOException
+	{
+		return init_prop().getProperty("Arrays");
+	}
+	public static String getArrPy() throws IOException
+	{
+		return init_prop().getProperty("ArrPyt");
+	}
+	public static String getStacks() throws IOException
+	{
+		return init_prop().getProperty("Stack");
+	}
+	public static String getStac() throws IOException
+	{
+		return init_prop().getProperty("Stac");
+	}
 	public static String getExpectedText2() throws IOException
 	{
 		return init_prop().getProperty("expectedText2");

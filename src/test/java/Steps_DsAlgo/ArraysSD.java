@@ -37,7 +37,7 @@ public class ArraysSD {
 		}
 
 	@Then("The user tries the correct script")
-	public void the_user_tries_the_correct_script() throws InterruptedException {
+	public void the_user_tries_the_correct_script() throws InterruptedException, IOException {
 		
 		//Arraypage.typeArray1();
 		Arraypage.typeArray2();
@@ -57,7 +57,7 @@ public class ArraysSD {
 }
 
 	@When("The user clicks Arrays in Python link button.")
-	public void the_user_clicks_Arrays_in_Python_link_button() throws InterruptedException {
+	public void the_user_clicks_Arrays_in_Python_link_button() throws InterruptedException, IOException {
 		DriverFactory.getDriver().navigate().back();
 		Arraypage.Try_Here();
 		Thread.sleep(1000);

@@ -1,6 +1,11 @@
 package POM_DsAlgo;
 
+import java.io.IOException;
 import java.util.List;
+import static Utilities.ConfigReader.getArrays;
+import static Utilities.ConfigReader.getArrPy;
+
+
 
 import org.openqa.selenium.Alert;
 
@@ -133,19 +138,19 @@ public class POarrays {
 	    	 driver.findElement(typeHere);
 	     }
        
-       public void typeArray1() {
+       public void typeArray1() throws IOException {
 	    	 
-	    	 driver.findElement(typeHere).sendKeys("print'Welcome to Arrays in Python'");
+	    	 driver.findElement(typeHere).sendKeys(getArrays());
 	     }
        
-       public void typeArray2() {
+       public void typeArray2() throws IOException {
 	    	 
-	    	 driver.findElement(typeHere).sendKeys("print'Welcome to Arrays in Python'");
+	    	 driver.findElement(typeHere).sendKeys(getArrays());
 	     }
        
-       public void typeArray3() {
+       public void typeArray3() throws IOException {
 	    	 
-	    	 driver.findElement(typeHere).sendKeys(" This is array's page");
+	    	 driver.findElement(typeHere).sendKeys(getArrPy());
 	     }
        
        public void acceptAlert() {

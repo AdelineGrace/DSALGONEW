@@ -1,6 +1,13 @@
 package POM_DsAlgo;
 
 import org.openqa.selenium.By;
+import static Utilities.ConfigReader.getStacks;
+
+import java.io.IOException;
+
+import static Utilities.ConfigReader.getStac;
+
+
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -72,16 +79,16 @@ import Driver.DriverFactory;
 	driver.switchTo().alert().accept();
 	}
 
-	public void typeCorrectCode() {
+	public void typeCorrectCode() throws IOException {
 
-	driver.findElement(textbox).sendKeys("print'Welcome to Stacks'");
+	driver.findElement(textbox).sendKeys(getStacks());
 	}
 
 
-	    public void typeIncorrectCode() {
+	    public void typeIncorrectCode() throws IOException {
 
 	   
-	driver.findElement(textbox).sendKeys("Welcome to Stacks");
+	driver.findElement(textbox).sendKeys(getStac());
 	}
 	   
 	    public void clickback () {

@@ -1994,3 +1994,283 @@
 ['INFO ]2023-05-20 10:09:01,809(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
 ['ERROR]2023-05-20 10:09:06,376(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
 ['ERROR]2023-05-20 10:09:10,452(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-20 10:24:14,831(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-20 10:24:19,381(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-20 10:24:20,972(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-20 10:24:21,320(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-20 10:24:25,184(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-20 10:24:28,943(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-20 10:24:29,998(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-20 10:24:35,505(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-20 10:24:36,767(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-20 10:24:43,464(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-20 10:24:45,872(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-20 10:24:45,889(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-20 10:24:53,408(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-20 10:24:57,859(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-20 10:25:01,889(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-20 10:25:04,355(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['INFO ]2023-05-20 10:25:12,745(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-20 10:25:12,761(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-20 10:25:16,519(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-20 10:25:21,757(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-20 10:25:22,062(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on graph module
+['ERROR]2023-05-20 10:25:26,237(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-20 10:25:30,421(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-20 10:25:30,693(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
+['ERROR]2023-05-20 10:25:35,195(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-20 10:25:39,184(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-21 01:14:23,156(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-21 01:14:27,648(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-21 01:14:29,306(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-21 01:14:29,629(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-21 01:14:33,446(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-21 01:14:37,182(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-21 01:14:38,226(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-21 01:14:43,550(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-21 01:14:44,837(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-21 01:14:51,667(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-21 01:14:54,063(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-21 01:14:54,079(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-21 01:15:01,667(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-21 01:15:05,941(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-21 01:15:09,950(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-21 01:15:12,390(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['INFO ]2023-05-21 01:15:20,739(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-21 01:15:20,754(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-21 01:15:24,541(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-21 01:15:29,820(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-21 01:15:30,117(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on graph module
+['ERROR]2023-05-21 01:15:34,390(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-21 01:15:38,591(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-21 01:15:38,867(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
+['ERROR]2023-05-21 01:15:43,466(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-21 01:15:47,529(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-21 22:09:46,329(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-21 22:09:51,450(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-21 22:09:53,032(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-21 22:09:53,335(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-21 22:09:57,153(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-21 22:10:00,969(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-21 22:10:01,995(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-21 22:10:07,190(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-21 22:10:08,500(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-21 22:10:15,441(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-21 22:10:17,822(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-21 22:10:17,840(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-21 22:10:25,412(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-21 22:10:29,771(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-21 22:10:33,722(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-21 22:10:36,204(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['INFO ]2023-05-21 22:10:44,736(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-21 22:10:44,769(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-21 22:10:48,557(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-21 22:10:53,853(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-21 22:10:54,139(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on graph module
+['ERROR]2023-05-21 22:10:58,365(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-21 22:11:02,639(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-21 22:11:02,919(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
+['ERROR]2023-05-21 22:11:07,372(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-21 22:11:11,381(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 12:07:53,817(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-22 12:07:59,862(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:08:01,458(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-22 12:08:01,741(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-22 12:08:05,659(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:08:09,441(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-22 12:08:10,496(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-22 12:08:18,070(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-22 12:08:19,612(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-22 12:08:26,774(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-22 12:08:29,223(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-22 12:08:29,249(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-22 12:08:37,471(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 12:08:41,795(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-22 12:08:45,833(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-22 12:08:48,446(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['INFO ]2023-05-22 12:08:57,566(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-22 12:08:57,585(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-22 12:09:01,886(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:09:07,209(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 12:09:07,485(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on graph module
+['ERROR]2023-05-22 12:09:11,821(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:09:16,072(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 12:09:16,329(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
+['ERROR]2023-05-22 12:09:20,939(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:09:25,062(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 12:09:51,379(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-22 12:09:55,512(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:09:56,977(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-22 12:09:57,272(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-22 12:10:09,838(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:10:13,687(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:10:14,759(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:10:15,808(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['ERROR]2023-05-22 12:10:15,824(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:10:15,868(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:10:15,891(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:10:15,910(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:10:15,919(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-22 12:10:15,936(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:10:16,985(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:10:17,026(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:10:17,040(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:12:19,594(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-22 12:12:24,171(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:12:25,778(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-22 12:12:26,081(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-22 12:12:30,008(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:12:33,879(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-22 12:12:34,903(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-22 12:12:41,018(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-22 12:12:42,324(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-22 12:12:49,468(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-22 12:12:52,136(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-22 12:12:52,169(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-22 12:13:00,206(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 12:13:04,580(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-22 12:13:08,691(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-22 12:13:11,293(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['INFO ]2023-05-22 12:13:20,077(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-22 12:13:20,093(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-22 12:13:24,135(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 12:13:29,429(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 12:13:29,740(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on graph module
+['ERROR]2023-05-22 12:13:33,985(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:13:38,264(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 12:13:38,541(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
+['ERROR]2023-05-22 12:13:43,079(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 12:13:47,195(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 16:11:33,115(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-22 16:11:38,374(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 16:11:40,098(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-22 16:11:40,461(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-22 16:11:44,520(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 16:11:48,441(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-22 16:11:49,464(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-22 16:11:55,059(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-22 16:11:56,529(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-22 16:12:03,676(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-22 16:12:06,192(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-22 16:12:06,228(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-22 16:12:14,619(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 16:12:19,390(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-22 16:12:23,578(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-22 16:12:26,090(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['INFO ]2023-05-22 16:12:34,843(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-22 16:12:34,870(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-22 16:12:38,673(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 16:12:44,033(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 16:12:44,415(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on graph module
+['ERROR]2023-05-22 16:12:48,666(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 16:12:53,253(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 16:12:53,635(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
+['ERROR]2023-05-22 16:12:58,134(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 16:13:02,272(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 18:04:39,258(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-22 18:04:44,297(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 18:04:45,988(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-22 18:04:46,487(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-22 18:04:50,553(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 18:04:54,586(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-22 18:04:55,635(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-22 18:05:01,723(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-22 18:05:03,073(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-22 18:05:10,365(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-22 18:05:12,857(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-22 18:05:12,888(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-22 18:05:21,370(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 18:05:26,150(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-22 18:05:30,347(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-22 18:05:32,914(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['INFO ]2023-05-22 18:05:41,469(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-22 18:05:41,486(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-22 18:05:45,531(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 18:05:50,866(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 18:05:51,265(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on graph module
+['ERROR]2023-05-22 18:05:55,588(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 18:05:59,841(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 18:06:00,220(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
+['ERROR]2023-05-22 18:06:04,885(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 18:06:08,982(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 20:26:43,229(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-22 20:26:54,025(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 20:26:55,607(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-22 20:26:55,951(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-22 20:26:59,931(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 20:27:03,695(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-22 20:27:04,754(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-22 20:27:10,162(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-22 20:27:11,428(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-22 20:27:18,598(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-22 20:27:21,063(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-22 20:27:21,090(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-22 20:27:29,007(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 20:27:33,473(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-22 20:27:37,492(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-22 20:27:40,001(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['INFO ]2023-05-22 20:27:48,406(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-22 20:27:48,425(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-22 20:27:52,212(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-22 20:27:57,542(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-22 20:27:57,855(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on graph module
+['ERROR]2023-05-22 20:28:02,099(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 20:28:06,325(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-22 20:28:06,564(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
+['ERROR]2023-05-22 20:28:11,164(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-22 20:28:15,186(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-23 08:48:40,031(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-23 08:48:44,811(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-23 08:48:46,419(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-23 08:48:46,693(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-23 08:48:50,684(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-23 08:48:54,448(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-23 08:48:55,495(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-23 08:49:00,933(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-23 08:49:02,239(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-23 08:49:09,389(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-23 08:49:11,843(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-23 08:49:11,880(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-23 08:49:19,785(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-23 08:49:24,171(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-23 08:49:28,235(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-23 08:49:30,664(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['ERROR]2023-05-23 08:49:30,700(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:37,024(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:37,102(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:37,147(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-23 08:49:37,181(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-23 08:49:37,212(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:37,260(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:37,322(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:38,370(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:38,407(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:38,437(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:38,458(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 08:49:38,478(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-23 08:59:17,932(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-23 08:59:22,344(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-23 08:59:23,912(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Invalid username and password
+['INFO ]2023-05-23 08:59:24,196(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Registered Successfully
+['ERROR]2023-05-23 08:59:27,983(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-23 08:59:31,743(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-23 08:59:32,796(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in Loginpage
+['INFO ]2023-05-23 08:59:38,187(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tested the corRect code
+['INFO ]2023-05-23 08:59:39,511(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is trying the incorrect code 
+['INFO ]2023-05-23 08:59:46,485(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the correct code in arrays
+['INFO ]2023-05-23 08:59:48,990(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tried the incorrect code in arrays
+['INFO ]2023-05-23 08:59:49,002(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-23 08:59:56,854(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-23 09:00:01,221(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-InValid Python code
+['INFO ]2023-05-23 09:00:05,376(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the incorrect code in Linkedlist
+['INFO ]2023-05-23 09:00:07,866(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User tries the correct code in Linkedlist
+['INFO ]2023-05-23 09:00:16,230(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-23 09:00:16,255(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-23 09:00:20,132(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-23 09:00:25,459(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-23 09:00:25,722(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on graph module
+['ERROR]2023-05-23 09:00:29,994(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 09:00:34,264(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code
+['INFO ]2023-05-23 09:00:34,560(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-user goto on queue module
+['ERROR]2023-05-23 09:00:39,089(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-23 09:00:43,511(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-valid python code

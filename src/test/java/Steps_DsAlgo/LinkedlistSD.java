@@ -1,5 +1,7 @@
 package Steps_DsAlgo;
 
+import java.io.IOException;
+
 import org.openqa.selenium.Keys;
 
 import org.openqa.selenium.interactions.Actions;
@@ -52,7 +54,7 @@ public class LinkedlistSD {
 	}
 
 	@When("User clicks Try Here and writes in-valid code in python")
-	public void user_clicks_try_here_and_writes_in_valid_code_in_python() throws InterruptedException {
+	public void user_clicks_try_here_and_writes_in_valid_code_in_python() throws InterruptedException, IOException {
 		
 	linkedlist.typeIncorrectCode();
 	Thread.sleep(1000);
@@ -76,7 +78,7 @@ public class LinkedlistSD {
 	}
 
 	@When("User clicks on in Try Here and writes valid code in python")
-	public void user_clicks_on_in_try_here_and_writes_valid_code_in_python() throws InterruptedException {
+	public void user_clicks_on_in_try_here_and_writes_valid_code_in_python() throws InterruptedException, IOException {
 	Thread.sleep(1000);
 DriverFactory.getDriver().navigate().back();
 linkedlist.clickTryHere();

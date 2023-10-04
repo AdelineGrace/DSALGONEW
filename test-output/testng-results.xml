@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="27" passed="22" failed="5" skipped="0">
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-23T08:59:14 EDT" name="Default suite" finished-at="2023-05-23T09:00:46 EDT" duration-ms="91687">
+  <suite started-at="2023-08-15T22:53:53 EDT" name="Failed suite [Default suite]" finished-at="2023-08-15T22:54:24 EDT" duration-ms="30974">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@76b07f29]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-05-23T08:59:14 EDT" name="Default test" finished-at="2023-05-23T09:00:46 EDT" duration-ms="91687">
+    <test started-at="2023-08-15T22:53:53 EDT" name="Default test(failed)" finished-at="2023-08-15T22:54:24 EDT" duration-ms="30974">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:14 EDT" name="setUpClass" finished-at="2023-05-23T08:59:17 EDT" duration-ms="2638" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@76b07f29]" started-at="2023-08-15T22:53:53 EDT" name="setUpClass" finished-at="2023-08-15T22:54:01 EDT" duration-ms="7579" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@20a434a8]]>
+                <![CDATA[org.testng.TestRunner@4be5b9b1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:17 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:22 EDT" duration-ms="5101" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@76b07f29]" started-at="2023-08-15T22:54:01 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-15T22:54:13 EDT" duration-ms="11548" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -34,75 +34,24 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]]]>
+              <![CDATA[Sheet index (-1) is out of range (0..0)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
-at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
+              <![CDATA[java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..0)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1484)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:1186)
+at Utilities.ExcelReader.getCellData(ExcelReader.java:55)
+at Steps_DsAlgo.LoginSteps.user_enters_invalid_data_from_and_in_excelpath(LoginSteps.java:40)
+at ✽.user enters invalid data from "Register" and 2 in excelpath(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:6)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:22 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:23 EDT" duration-ms="1336" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validating Login process for User with incorrect credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register new Account"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:24 EDT" duration-ms="279" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User is trying register with correct credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register new Account"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:27 EDT" duration-ms="2951" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Creating new user account"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register new Account"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:28 EDT" duration-ms="1036" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@76b07f29]" started-at="2023-08-15T22:54:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-15T22:54:19 EDT" duration-ms="6218" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -115,251 +64,34 @@ at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [U are logged in] but found [Invalid Username and Password]]]>
+              <![CDATA[Unable to find element with locator By.xpath: //input[@name='password']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [U are logged in] but found [Invalid Username and Password]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at Steps_DsAlgo.LoginSteps.user_stays_on_the_login_page(LoginSteps.java:182)
-at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:47)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //input[@name='password']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at POM_DsAlgo.POMLogin.UserInvalid(POMLogin.java:160)
+at Steps_DsAlgo.LoginSteps.user_enters_invalid_username_from_and_password_from(LoginSteps.java:173)
+at ✽.user enters invalid username from "LoginPage" and password from 3(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:46)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:28 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:31 EDT" duration-ms="3555" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the login page with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register new Account"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:38 EDT" duration-ms="6434" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Trying the correct script"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["The module Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:41 EDT" duration-ms="3555" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Trying the incorrect script"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["The module Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:41 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:46 EDT" duration-ms="4724" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Trying the correct script"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["The module Arrays"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:48 EDT" duration-ms="2500" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Trying the incorrect script"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["The module Arrays"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:48 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T08:59:56 EDT" duration-ms="7861" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Testing the tryEditor Box with valid syntax in Find Even Numbers Question"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["The module Arrays"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T08:59:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:01 EDT" duration-ms="4378" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Testing the tryEditor Box with valid syntax in Squares of a Sorted Array Question"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["The module Arrays"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:01 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:02 EDT" duration-ms="1626" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User is learning LinkedList by navigating through all below links"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["LinkedList acessed by user"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:02 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:05 EDT" duration-ms="2502" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Invalid code in linked list."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["LinkedList acessed by user"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:05 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:07 EDT" duration-ms="2479" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Valid code in linked list."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["LinkedList acessed by user"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:08 EDT" duration-ms="538" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User wants to learn and explore Stack"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User is learning Stack Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:11 EDT" duration-ms="3453" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User enters valid data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User is learning Stack Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:11 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:14 EDT" duration-ms="2491" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User enters invalid data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User is learning Stack Data Structure"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:16 EDT" duration-ms="1877" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Choosing of Tree Module from the List page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Run the tryEditor in Overview of Trees Tree Module"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:20 EDT" duration-ms="4079" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@76b07f29]" started-at="2023-08-15T22:54:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-15T22:54:19 EDT" duration-ms="139" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -372,59 +104,49 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[expected [] but found [Overview of Trees]]]>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d3e018de94b2e6351411c047d1731e5, actions {actions=[org.openqa.selenium.interactions.Sequence@40b70f31]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51973/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d3e018de94b2e6351411c047d1731e5]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [] but found [Overview of Trees]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at Steps_DsAlgo.TreeSteps.user_checks_for_the_error_message(TreeSteps.java:84)
-at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/FTree.feature:13)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d3e018de94b2e6351411c047d1731e5, actions {actions=[org.openqa.selenium.interactions.Sequence@40b70f31]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51973/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d3e018de94b2e6351411c047d1731e5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+at Steps_DsAlgo.TreeSteps.user_scrolls_down_and_chooses_overview_of_trees_link(TreeSteps.java:56)
+at ✽.user scrolls down and chooses Overview of Trees link(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/FTree.feature:11)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:25 EDT" duration-ms="5140" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Testing the tryEditor Box with valid syntax in Overview of Trees Option"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Run the tryEditor in Overview of Trees Tree Module"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:25 EDT" duration-ms="260" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Selecting the Graph Module from the dropdown list"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User should be able to run Graph Module features"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:30 EDT" duration-ms="4471" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@76b07f29]" started-at="2023-08-15T22:54:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-15T22:54:20 EDT" duration-ms="1058" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -437,59 +159,52 @@ at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspac
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[expected [Welcome to Graph] but found []]]>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d3e018de94b2e6351411c047d1731e5, findElement {using=xpath, value=/html/body/div[2]/ul[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51973/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d3e018de94b2e6351411c047d1731e5]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Welcome to Graph] but found []
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at Steps_DsAlgo.GraphSteps.user_should_have_error_message(GraphSteps.java:133)
-at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Graph.feature:25)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d3e018de94b2e6351411c047d1731e5, findElement {using=xpath, value=/html/body/div[2]/ul[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51973/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d3e018de94b2e6351411c047d1731e5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at POM_DsAlgo.POMGraph.graphMod(POMGraph.java:62)
+at Steps_DsAlgo.GraphSteps.user_can_scroll_down_to_select_option_from_graph_list(GraphSteps.java:94)
+at ✽.user can scroll down to select option from Graph list(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Graph.feature:21)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:34 EDT" duration-ms="4064" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Graph Module with valid syntax in editor box"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User should be able to run Graph Module features"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:34 EDT" duration-ms="295" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Selecting the Queue Module from the dropdown list"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User should be able to run Queue Module features"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:39 EDT" duration-ms="4734" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@76b07f29]" started-at="2023-08-15T22:54:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-15T22:54:20 EDT" duration-ms="83" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -502,47 +217,53 @@ at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/D
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[expected [Welcome to Queue] but found []]]>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d3e018de94b2e6351411c047d1731e5, actions {actions=[org.openqa.selenium.interactions.Sequence@12bcf7c6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51973/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d3e018de94b2e6351411c047d1731e5]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Welcome to Queue] but found []
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:134)
-at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d3e018de94b2e6351411c047d1731e5, actions {actions=[org.openqa.selenium.interactions.Sequence@12bcf7c6]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51973/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d3e018de94b2e6351411c047d1731e5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+at Steps_DsAlgo.QueueSteps.user_scroll_down_to_select_option_from_Queue_list(QueueSteps.java:89)
+at ✽.user scroll down to select option from Queue list(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:15)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-23T09:00:43 EDT" duration-ms="4454" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Test the Queue Module with valid syntax in editor box"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User should be able to run Queue Module features"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-23T09:00:43 EDT" name="tearDownClass" finished-at="2023-05-23T09:00:46 EDT" duration-ms="2691" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@76b07f29]" started-at="2023-08-15T22:54:20 EDT" name="tearDownClass" finished-at="2023-08-15T22:54:24 EDT" duration-ms="4066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>

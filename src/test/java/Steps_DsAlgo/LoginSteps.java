@@ -34,7 +34,7 @@ public class LoginSteps {
 	}
 	@When("user enters invalid data from {string} and {int} in excelpath")
 	public void user_enters_invalid_data_from_and_in_excelpath(String sheetName, Integer rowNumber) throws InterruptedException, IOException {
-		ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject\\src\\test\\resources\\excel.xlsx");
+		ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\BDD_RestAssured\\src\\test\\resources\\restPost.xlsx");
 		Thread.sleep(1000);
 
 		List<String> password = reader.getCellData(sheetName,1,rowNumber);

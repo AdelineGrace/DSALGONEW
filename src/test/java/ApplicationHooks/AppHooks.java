@@ -38,7 +38,7 @@ public static ConfigReader configReader;
 	public static void getProperty() throws IOException
 	{
 		configReader = new ConfigReader();
-		prop = configReader.init_prop();
+		prop = ConfigReader.init_prop();
 	}
 	@BeforeAll (order=1)
 	public static void launchBrowser() throws InvalidFormatException, IOException

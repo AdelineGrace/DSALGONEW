@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>22/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 16 21:55:06 EDT 2023</td>
+<td>Started on:</td><td>Thu Dec 07 22:30:05 EST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>94 seconds (94603 ms)</td>
+<tr><td>Total time:</td><td>105 seconds (105743 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,23 +76,29 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
-<td><div><pre>java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..0)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1484)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:1186)
-	at Utilities.ExcelReader.getCellData(ExcelReader.java:55)
-	at Steps_DsAlgo.LoginSteps.user_enters_invalid_data_from_and_in_excelpath(LoginSteps.java:40)
-	at ✽.user enters invalid data from &quot;Register&quot; and 2 in excelpath(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1162128198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1162128198'><pre>java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..0)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1484)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:1186)
-	at Utilities.ExcelReader.getCellData(ExcelReader.java:55)
-	at Steps_DsAlgo.LoginSteps.user_enters_invalid_data_from_and_in_excelpath(LoginSteps.java:40)
-	at ✽.user enters invalid data from &quot;Register&quot; and 2 in excelpath(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:6)
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with invalid syntax in editor box", "User should be able to run Queue Module features"</td>
+<td><div><pre>java.lang.AssertionError: expected [Welcome to Queue] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:134)
+	at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1453795463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1453795463'><pre>java.lang.AssertionError: expected [Welcome to Queue] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:134)
+	at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
 </pre></div></td>
 <td>4</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Graph Module with invalid syntax in editor box", "User should be able to run Graph Module features"</td>
 <td><div><pre>java.lang.AssertionError: expected [Welcome to Graph] but found []
@@ -104,8 +110,8 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:665)
 	at Steps_DsAlgo.GraphSteps.user_should_have_error_message(GraphSteps.java:133)
 	at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Graph.feature:25)
-</pre></div><a href='#' onClick='toggleBox("stack-trace995692394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace995692394'><pre>java.lang.AssertionError: expected [Welcome to Graph] but found []
+</pre></div><a href='#' onClick='toggleBox("stack-trace406474891", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace406474891'><pre>java.lang.AssertionError: expected [Welcome to Graph] but found []
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -116,31 +122,7 @@ function toggleAllBoxes() {
 	at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Graph.feature:25)
 </pre></div></td>
 <td>4</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with invalid syntax in editor box", "User should be able to run Queue Module features"</td>
-<td><div><pre>java.lang.AssertionError: expected [Welcome to Queue] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:134)
-	at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
-</pre></div><a href='#' onClick='toggleBox("stack-trace364702969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace364702969'><pre>java.lang.AssertionError: expected [Welcome to Queue] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:134)
-	at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
-</pre></div></td>
-<td>4</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login page with invalid credentials", "Register new Account"</td>
 <td><div><pre>java.lang.AssertionError: expected [U are logged in] but found [Invalid Username and Password]
@@ -152,8 +134,8 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:665)
 	at Steps_DsAlgo.LoginSteps.user_stays_on_the_login_page(LoginSteps.java:182)
 	at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:47)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1676857380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1676857380'><pre>java.lang.AssertionError: expected [U are logged in] but found [Invalid Username and Password]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1316317287", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1316317287'><pre>java.lang.AssertionError: expected [U are logged in] but found [Invalid Username and Password]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -164,7 +146,25 @@ function toggleAllBoxes() {
 	at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:47)
 </pre></div></td>
 <td>1</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
+<td><div><pre>java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..0)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1484)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:1186)
+	at Utilities.ExcelReader.getCellData(ExcelReader.java:55)
+	at Steps_DsAlgo.LoginSteps.user_enters_invalid_data_from_and_in_excelpath(LoginSteps.java:40)
+	at ✽.user enters invalid data from &quot;Register&quot; and 2 in excelpath(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1639500254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1639500254'><pre>java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..0)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1484)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:1186)
+	at Utilities.ExcelReader.getCellData(ExcelReader.java:55)
+	at Steps_DsAlgo.LoginSteps.user_enters_invalid_data_from_and_in_excelpath(LoginSteps.java:40)
+	at ✽.user enters invalid data from &quot;Register&quot; and 2 in excelpath(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:6)
+</pre></div></td>
+<td>10</td>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with invalid syntax in Overview of Trees Option", "Run the tryEditor in Overview of Trees Tree Module"</td>
 <td><div><pre>java.lang.AssertionError: expected [] but found [Overview of Trees]
@@ -176,8 +176,8 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:665)
 	at Steps_DsAlgo.TreeSteps.user_checks_for_the_error_message(TreeSteps.java:84)
 	at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/FTree.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace553937658", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace553937658'><pre>java.lang.AssertionError: expected [] but found [Overview of Trees]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1067354869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1067354869'><pre>java.lang.AssertionError: expected [] but found [Overview of Trees]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -187,8 +187,8 @@ function toggleAllBoxes() {
 	at Steps_DsAlgo.TreeSteps.user_checks_for_the_error_message(TreeSteps.java:84)
 	at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/FTree.feature:13)
 </pre></div></td>
-<td>3</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>4</td>
+<td>runner.TestRunner@461ad730</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -199,115 +199,115 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login page with valid credentials", "Register new Account"</td>
 <td></td>
 <td>3</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Arrays"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the correct script", "The module Arrays"</td>
 <td></td>
-<td>2</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid code in linked list.", "LinkedList acessed by user"</td>
-<td></td>
-<td>2</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>5</td>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid code in linked list.", "LinkedList acessed by user"</td>
 <td></td>
 <td>2</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the correct script", "The module Arrays"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is learning LinkedList by navigating through all below links", "LinkedList acessed by user"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User wants to learn and explore Stack", "User is learning Stack Data Structure"</td>
 <td></td>
 <td>1</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Graph Module with valid syntax in editor box", "User should be able to run Graph Module features"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Data Structure"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Selecting the Graph Module from the dropdown list", "User should be able to run Graph Module features"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters invalid data", "User is learning Stack Data Structure"</td>
-<td></td>
-<td>2</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Selecting the Queue Module from the dropdown list", "User should be able to run Queue Module features"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is trying register with correct credentials", "Register new Account"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Overview of Trees Option", "Run the tryEditor in Overview of Trees Tree Module"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login page with valid credentials", "Register new Account"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the correct script", "The module Data Structure"</td>
 <td></td>
 <td>6</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Choosing of Tree Module from the List page", "Run the tryEditor in Overview of Trees Tree Module"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with valid syntax in editor box", "User should be able to run Queue Module features"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Graph Module with valid syntax in editor box", "User should be able to run Graph Module features"</td>
 <td></td>
 <td>4</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Find Even Numbers Question", "The module Arrays"</td>
-<td></td>
-<td>8</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User wants to learn and explore Stack", "User is learning Stack Data Structure"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@79defdc</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Login process for User with incorrect credentials", "Register new Account"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters valid data", "User is learning Stack Data Structure"</td>
 <td></td>
 <td>3</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters invalid data", "User is learning Stack Data Structure"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with valid syntax in editor box", "User should be able to run Queue Module features"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Find Even Numbers Question", "The module Arrays"</td>
+<td></td>
+<td>8</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is learning LinkedList by navigating through all below links", "LinkedList acessed by user"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Data Structure"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Login process for User with incorrect credentials", "Register new Account"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@461ad730</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Squares of a Sorted Array Question", "The module Arrays"</td>
 <td></td>
 <td>4</td>
-<td>runner.TestRunner@79defdc</td></tr>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with valid syntax in Overview of Trees Option", "Run the tryEditor in Overview of Trees Tree Module"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Selecting the Queue Module from the dropdown list", "User should be able to run Queue Module features"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is trying register with correct credentials", "Register new Account"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Choosing of Tree Module from the List page", "Run the tryEditor in Overview of Trees Tree Module"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid code in linked list.", "LinkedList acessed by user"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Arrays"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@461ad730</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Selecting the Graph Module from the dropdown list", "User should be able to run Graph Module features"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@461ad730</td></tr>
 </table><p>
 </body>
 </html>
